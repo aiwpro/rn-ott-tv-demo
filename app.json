@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "rn-ott-tv-demo",
+    "slug": "rn-ott-tv-demo",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "android": {
+      "package": "com.workprompt.rnotttvdemo"
+    }
+  }
+}
