@@ -1,14 +1,26 @@
 {
   "expo": {
-    "name": "rn-ott-tv-demo",
+    "name": "RN OTT TV Demo",
     "slug": "rn-ott-tv-demo",
     "version": "1.0.0",
-    "platforms": [
-      "ios",
-      "android"
-    ],
+    "orientation": "landscape",
+    "scheme": "rnottdemo",
+    "userInterfaceStyle": "dark",
+    "assetBundlePatterns": ["**/*"],
+    "platforms": ["android"],
     "android": {
-      "package": "com.workprompt.rnotttvdemo"
-    }
+      "package": "com.example.rnottdemo",
+      "permissions": [],
+      "intentFilters": [
+        {
+          "action": "android.intent.action.MAIN",
+          "category": [
+            "android.intent.category.LAUNCHER",
+            "android.intent.category.LEANBACK_LAUNCHER"
+          ]
+        }
+      ]
+    },
+    "updates": { "fallbackToCacheTimeout": 0 }
   }
 }
